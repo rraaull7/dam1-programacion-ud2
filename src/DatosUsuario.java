@@ -27,9 +27,33 @@ if (emailValido) {
             System.out.println("El usuario no puede ser creado porque el email introducido no es válido.");
         }
 
+if (edad<=0){
+	System.out.println("ERROR: Edad No Valida");
+
+} else if (edad>120)
+	System.out.println("ERROR: Edad No Valida");
+
+
+
+
+if (nombre.length() < 2 || nombre.length() > 20) {
+   System.out.println("ERROR: Nombre No Valido");
+ 
+}  
+
+
+
+
+
+
+
+
+
+
+sc.close();
+} 
+
 } 
     
 
-
-}
 
