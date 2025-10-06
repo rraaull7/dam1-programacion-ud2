@@ -54,6 +54,14 @@ public class Main {
         // para asegurarte de que comprendes la diferencia entre public y private.
 
 
+
+
+        cuenta.depositar(200);
+        cuenta.retirar(50);
+
+        double saldoActual = cuenta.getSaldo();
+        System.out.println("Saldo actual después de operaciones: " + saldoActual);
+
     }
 }
 
