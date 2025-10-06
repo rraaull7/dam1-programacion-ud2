@@ -69,7 +69,7 @@ public class Main {
 // RESPUESTAS DE REFLEXIÓN
 // ================================
 // Ejercicio 1: ¿por qué no puedo acceder al saldo directamente?
-// Respuesta: No puedo acceder al saldo directamente porque es un atributo privado y está protegido por encapsulamiento.
+// Respuesta: No puedo acceder al saldo directamente porque es un atributo privado y está protegido 
 
 // Ejercicio 2: ¿por qué sí puedo usar los métodos depositar(), retirar() y getSaldo()?
 // Respuesta: Puedo usar los métodos públicos porque están diseñados para interactuar con el objeto desde fuera de su clase.
