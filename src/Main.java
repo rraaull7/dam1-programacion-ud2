@@ -12,7 +12,7 @@ public class Main {
 
         // Tu código aquí ↓
         
-        //System.out.println(cuenta.saldo);
+        // System.out.println(cuenta.saldo);
 
 
 
@@ -41,7 +41,7 @@ public class Main {
 
         // Tu código aquí ↓
         
-        //cuenta.RegistrarOperacion("Hackeo", 9999)
+        // cuenta.RegistrarOperacion("Hackeo", 9999)
 
 
 
@@ -52,6 +52,8 @@ public class Main {
         // ================================
         // Puedes hacer pruebas adicionales con los métodos disponibles
         // para asegurarte de que comprendes la diferencia entre public y private.
+
+
     }
 }
 
@@ -59,16 +61,21 @@ public class Main {
 // RESPUESTAS DE REFLEXIÓN
 // ================================
 // Ejercicio 1: ¿por qué no puedo acceder al saldo directamente?
-// Respuesta: ....................................................
+// Respuesta: No puedo acceder al saldo directamente porque es un atributo privado y está protegido por encapsulamiento.
 
 // Ejercicio 2: ¿por qué sí puedo usar los métodos depositar(), retirar() y getSaldo()?
-// Respuesta: ....................................................
+// Respuesta: Puedo usar los métodos públicos porque están diseñados para interactuar con el objeto desde fuera de su clase.
 
 // Ejercicio 3: ¿qué significa el error al intentar llamar a registrarOperacion()?
-// Respuesta: ....................................................
+// Respuesta: El error ocurre porque registrarOperacion es privado y no se puede invocar desde otra clase.
 
 // Ejercicio 4: 
 // - ¿Qué ventajas tiene que saldo sea private?
 // - ¿Qué pasaría si saldo fuera public?
 // - ¿Por qué registrarOperacion es private en lugar de public?
-// Respuesta: ....................................................
+// Respuesta: 
+// Tener saldo como privado evita modificaciones indebidas y protege la lógica interna.
+
+// Si fuera público, cualquier clase podría alterarlo sin control, generando errores.
+
+// registrarOperacion es privado porque solo debe usarse dentro de la clase para mantener la coherencia de las operaciones.
