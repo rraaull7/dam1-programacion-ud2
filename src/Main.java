@@ -68,22 +68,21 @@ public class Main {
 // ================================
 // RESPUESTAS DE REFLEXIÓN
 // ================================
-// Ejercicio 1: ¿por qué no puedo acceder al saldo directamente?
-// Respuesta: No puedo acceder al saldo directamente porque es un atributo privado y está protegido 
-
-// Ejercicio 2: ¿por qué sí puedo usar los métodos depositar(), retirar() y getSaldo()?
-// Respuesta: Puedo usar los métodos públicos porque están diseñados para interactuar con el objeto desde fuera de su clase.
-
-// Ejercicio 3: ¿qué significa el error al intentar llamar a registrarOperacion()?
-// Respuesta: El error ocurre porque registrarOperacion es privado y no se puede invocar desde otra clase.
-
-// Ejercicio 4: 
-// - ¿Qué ventajas tiene que saldo sea private?
-// - ¿Qué pasaría si saldo fuera public?
-// - ¿Por qué registrarOperacion es private en lugar de public?
-// Respuesta: 
-// Tener saldo como privado evita modificaciones indebidas y protege la lógica interna.
-
-// Si fuera público, cualquier clase podría alterarlo sin control, generando errores.
-
-// registrarOperacion es privado porque solo debe usarse dentro de la clase para mantener la coherencia de las operaciones.
+// Ejercicio 1: ¿Qué diferencia hay entre el constructor por defecto y el parametrizado?
+// Respuesta: ... El constructor por defecto no da los valores a los atributos, el parametrizado si que los da
+ 
+// Ejercicio 2: ¿Por qué da false al comparar con == dos objetos con los mismos datos?
+// Respuesta: ... Aunque tienen los mismos datos, no son el mismo objeto y entonces se consideran diferentes
+ 
+// Ejercicio 3: ¿Qué diferencia hay entre == y equals()? ¿Por qué ahora sí devuelve true?
+// Respuesta: ... Porque "equals()" compara los valores,no sus objetos
+ 
+// Ejercicio 4: ¿Por qué en Pelicula equals no funciona como en Cancion?
+// Respuesta: ...
+ 
+// Ejercicio 5: ¿Qué ocurre cuando modificas el objeto a través de c6? ¿Qué demuestra?
+// Respuesta: ... El objeto c5 cambia tambien, porque que son iguales
+ 
+// Ejercicio 6: ¿Qué error aparece al acceder a un método de p3 siendo null?
+// ¿Qué significa realmente que una variable valga null?
+// Respuesta: ... Es que esa variable no tiene ningun valor asignado
