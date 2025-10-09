@@ -19,6 +19,16 @@ public static void prioridad(String tarea, int prioridad){
 
 }
 
+public static String Completada(boolean completada){
+ if (completada) {
+return "✅ Completada";
+} else {
+return "⏳ Pendiente";
+}
+}
+
+
+
 
     public static void main(String[] args) {
 
