@@ -26,7 +26,11 @@ method.saludar();
         // Tu código aquí ↓
     
 int numero =method.sumar(5,3);
-method.presentar("Lucia");
+System.out.println(numero);
+
+String saludo = method.presentar("Lucia");
+System.out.println(saludo);
+
 
 
 
