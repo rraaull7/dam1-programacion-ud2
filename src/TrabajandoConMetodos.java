@@ -40,7 +40,7 @@ method.presentar("Lucia");
         // 3. Imprime n después de llamar al método.
         // Tu código aquí ↓
 
-int num = 10
+int num; = 10
 
 method.incrementar(num);
 
@@ -55,6 +55,7 @@ method.incrementar(num);
         // 2. Llama a method.cambiarTitulo(cancion).
         // 3. Imprime la canción después.
         // Tu código aquí ↓
+
 
 
         // ================================
