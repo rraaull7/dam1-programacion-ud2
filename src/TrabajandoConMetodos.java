@@ -40,9 +40,10 @@ method.presentar("Lucia");
         // 3. Imprime n después de llamar al método.
         // Tu código aquí ↓
 
-int num; = 10
+int n = 10;
 
-method.incrementar(num);
+method.incrementar(n);
+System.out.println(n);
 
 
 
