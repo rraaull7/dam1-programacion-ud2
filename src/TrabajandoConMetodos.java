@@ -70,7 +70,7 @@ System.out.println(n);
 // Respuesta: ....................................................
 
 // Ejercicio 2: ¿Qué diferencia hay entre un método void y uno con retorno?
-// Respuesta: ....................................................
+// Respuesta: el retorno te devuelve algo y el void no
 
 // Ejercicio 3: ¿Ha cambiado la variable n fuera del método incrementar()?
 // ¿Por qué?
